@@ -27,6 +27,10 @@ ul{
   color:#ffffff;
 }
 
+.area{
+  resize: none;
+}
+
 .dark{
   padding:15px;
   background:#35424a;

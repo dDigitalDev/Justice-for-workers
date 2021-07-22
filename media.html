@@ -30,9 +30,9 @@
     <section id="newsletter">
       <div class="container">
         <h1>Be a member of IJWL</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">SEND</button>
+        <form name="member" data-netlify="true">
+          <input type="email" name="email" placeholder="Enter Email...">
+          <button type="submit" value="submit" class="button_1">SEND</button>
         </form>
       </div>
     </section>
@@ -89,18 +89,18 @@
             <form class="quote" name="intouch" data-netlify-recaptcha="true" data-netlify="true">
   						<div>
   							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
+  							<input type="text" name="text" placeholder="Name">
   						</div>
   						<div>
   							<label>Email</label><br>
-  							<input type="email" placeholder="Emial Address">
+  							<input type="email" name="email" placeholder="Email Address">
   						</div>
   						<div>
   							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
+  							<textarea placeholder="Message" name="message"></textarea>
   						</div>
               <div data-netlify-recaptcha="true"></div>
-  						<button class="button_1" type="submit">Send</button>
+  						<button class="button_1" value="submit" type="submit">Send</button>
 					</form>
           </div>
         </aside>
